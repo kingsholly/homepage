@@ -29,7 +29,7 @@ a{
     
 }
 .intropage{
-    background-image: url("homepage/asset/images/bg.jpg");
+    background-image: url("asset/images/cover.jpg");
     background-size: cover;
 min-height: 750px;
 }
