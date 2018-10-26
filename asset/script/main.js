@@ -1,3 +1,21 @@
+// slide menu button 
+function openSlideMenu(){
+  document.getElementById('side-menu').style.width = '250px';
+  document.getElementById('main').style.marginLeft = '250px';
+}
+
+function closeSlideMenu(){
+  document.getElementById('side-menu').style.width = '0';
+  
+  document.getElementById('main').style.marginLeft = '0';
+}
+
+
+
+
+
+
+
 var slide = document.getElementsByClassName('clientbox');
 index = 0;
 for (j = 1; j < slide.length; j++) {
@@ -11,4 +29,4 @@ function slides() {
       index = 0
     }
     slide[index].style.display = 'block';
-  }
+  };
